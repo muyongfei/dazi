@@ -1,13 +1,55 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title></title>
+    <meta charset="UTF-8">
+    <title>Palette</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_517772_ummv0q3uk7c766r.css">
+    <script src="js/palettee.js"></script>
+    <script src="js/index.js"></script>
 </head>
 <body>
-	<canvas width="1000" height="1000">
-		
-	</canvas>
+    <header>
+        <ul class="save">
+            <li id="open" class="iconfont">&#xe6a2;</li>
+            <li class="iconfont">&#xe617;</li>
+            <li class="iconfont">&#xe61d;</li>
+            <li class="iconfont" id="empty">&#xe61a;</li>
+        </ul>
+        <ul class="shape">
+            <li class="iconfont" id="line">&#xe60b;</li>
+            <li class="iconfont" id="circle">&#xe608;</li>
+            <li class="iconfont" id="pencil">&#xe693;</li>
+            <li class="iconfont" id="dash">&#xe62e;</li>
+            <li class="iconfont" id="rect">&#xe603;</li>
+            <li class="iconfont" id="poly">&#xe604;</li>
+            <li class="iconfont" id="polyj">&#xe881;</li>
+            <li class="iconfont" id="eraser">&#xe647;</li>
+        </ul>
+        <ul class="color">
+            <li class="stroke">描边</li>
+            <li class="fill">填充</li>
+            <li class="线宽">线宽</li>
+            <li class="font">文字</li>
+            <li class="chai">拆解</li>
+            <li><input  class="color1" type="color"></li>
+            <li><input class="color2" type="color"></li>
+            <li><input type="number" style="width: 50px"></li>
+            <li><input class="color3" type="color"></li>
+        </ul>
+    </header>
+    <section>
+    <div class="nei">
+        <canvas width="1200" height="700">
+
+        </canvas>
+        <div class="zhe"></div>
+        <div class="opacity"></div>
+        <div class="cai"></div>
+    </div>
+    
+        
+        
+    </section>
 </body>
 </html>
-<script src="index.js"></script>
